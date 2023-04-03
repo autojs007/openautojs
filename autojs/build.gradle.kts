@@ -67,7 +67,8 @@ dependencies {
     api(project(path = ":LocalRepo:term"))
     api(project(path = ":LocalRepo:p7zip"))
     api(project(path = ":LocalRepo:OpenCV"))
-    api(project(":paddleocr"))
+    //api(project(":paddleocr"))
+    api(project(path = ":LocalRepo:PaddleOCR4Android"))
     // libs
     api(fileTree("../app/libs"){include("dx.jar", "rhino-1.7.14-jdk7.jar")})
     api("cz.adaptech:tesseract4android:4.1.1")
